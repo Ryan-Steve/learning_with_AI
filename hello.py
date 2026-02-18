@@ -27,18 +27,26 @@ print("\n I live in",city.upper(),",",country.capitalize())
 sentence= "Naibori is the capital of Kenya"
 print(sentence.replace("Naibori","Nairobi"))
 
-#Excercise 3, Day 2
-#Commercial arithmetic
-#cash = 100
-#item = 23
-#items_bought = cash//item
-#remainder = cash%item
+#Exercise Day 4
+#Conditionals
+age = int(input("Enter your age: "))
 
-#print("Items bought:",items_bought)
-#print("Cash remaining :",remainder)
+if age < 13:
+    print("You're a child")
+elif age < 20:
+    print("You're a teenager")
+elif age < 65:
+    print("You're an adult")
+else:
+    print("You're a senior")
+
+# Multiple conditions
+temperature = 25
+is_raining = False
+
+if temperature > 20 and not is_raining:
+    print("Great day for a picnic!")
 
 
-#DAY 3
-#Excercise 1
 
 
